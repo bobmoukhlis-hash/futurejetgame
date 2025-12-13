@@ -1,7 +1,10 @@
+# Dipendenze principali per ChatAI Pro FLUX 2025
+
 gradio==4.43.0
 huggingface_hub==0.25.2
-deep-translator
-Pillow
-SpeechRecognition
-gtts
-pydub
+deep-translator==1.11.4
+Pillow==10.3.0
+SpeechRecognition==3.10.1
+gtts==2.5.1
+pydub==0.25.1
+requests==2.31.0
