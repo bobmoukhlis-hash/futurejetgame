@@ -3,7 +3,6 @@
 # ======================================================
 
 !pip install -q gradio deep-translator Pillow requests gtts SpeechRecognition pydub
-
 import gradio as gr
 import requests, io, base64, tempfile, os
 from deep_translator import GoogleTranslator
@@ -167,4 +166,7 @@ with gr.Blocks(theme=gr.themes.Soft()) as app:
 
     gr.Markdown("💳 **Versione Premium:** [paypal.me/bobbob1979](https://www.paypal.me/bobbob1979)")
 
-app.launch(share=True)
+import gradio as gr
+
+if __name__ == "__main__":
+    app.launch(server_name="0.0.0.0", server_port=10000)
