@@ -1,4 +1,6 @@
-# Dipendenze ChatAI FutureJetGame (Render Stable)
+pip==24.0
+setuptools==68.0.0
+wheel==0.41.2
 
 gradio==4.43.0
 huggingface_hub==0.25.2
@@ -8,5 +10,3 @@ SpeechRecognition==3.10.1
 gtts==2.5.1
 pydub==0.25.1
 requests==2.31.0
-setuptools==69.0.3
-wheel==0.43.0
