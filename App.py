@@ -2,7 +2,7 @@
 # 🤖 ChatAI Pro FLUX 2025 — Groq + Voce + Immagini (Render Version)
 # ======================================================
 
-!pip install -q gradio deep-translator Pillow requests gtts SpeechRecognition pydub
+
 import gradio as gr
 import requests, io, base64, tempfile, os
 from deep_translator import GoogleTranslator
