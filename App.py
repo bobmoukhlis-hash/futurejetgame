@@ -166,7 +166,7 @@ with gr.Blocks(theme=gr.themes.Soft()) as app:
 
     gr.Markdown("💳 **Versione Premium:** [paypal.me/bobbob1979](https://www.paypal.me/bobbob1979)")
 
-import gradio as gr
-
 if __name__ == "__main__":
-    app.launch(server_name="0.0.0.0", server_port=10000)
+    import os
+    port = int(os.environ.get("PORT", 10000))
+    app.launch(server_name="0.0.0.0", server_port=port)
